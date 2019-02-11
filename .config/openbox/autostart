@@ -1,0 +1,6 @@
+tint2 &&
+pulseaudio &&
+exec xcompmgr -cC -t5 -l5 -r4.2 -o.55 &
+nitrogen --restore &
+sleep 20s & 
+volumeicon
