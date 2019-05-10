@@ -2,7 +2,7 @@
 
 ## Add user
 useradd -m -g users -G wheel,storage,power,uucp -s /bin/bash rodrigo 
-## uucp group for the prismatik use, optinal if you dont plan to use it
+## uucp group for the prismatik use, optional if you dont plan to use it
 passwd rodrigo
 
 #setup the users with visudo 
