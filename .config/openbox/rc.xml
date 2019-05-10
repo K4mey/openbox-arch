@@ -19,42 +19,42 @@
     <primaryMonitor>Mouse</primaryMonitor>
   </placement>
   <theme>
-    <name>Arc-Dark</name>
+    <name>Numix-Archblue</name>
     <titleLayout>NLIMC</titleLayout>
     <keepBorder>yes</keepBorder>
     <animateIconify>yes</animateIconify>
     <font place="ActiveWindow">
-      <name>Roboto</name>
+      <name>Sans</name>
       <size>11</size>
       <weight>Normal</weight>
       <slant>Normal</slant>
     </font>
     <font place="InactiveWindow">
-      <name>Roboto</name>
+      <name>Sans</name>
       <size>11</size>
       <weight>Normal</weight>
-      <slant>Italic</slant>
+      <slant>Normal</slant>
     </font>
     <font place="MenuHeader">
-      <name>Roboto</name>
+      <name>Sans</name>
       <size>11</size>
       <weight>Normal</weight>
       <slant>Normal</slant>
     </font>
     <font place="MenuItem">
-      <name>Roboto</name>
+      <name>Sans</name>
       <size>10</size>
       <weight>Normal</weight>
       <slant>Normal</slant>
     </font>
     <font place="ActiveOnScreenDisplay">
-      <name>Roboto</name>
+      <name>Sans</name>
       <size>10</size>
       <weight>Normal</weight>
       <slant>Normal</slant>
     </font>
     <font place="InactiveOnScreenDisplay">
-      <name>Roboto</name>
+      <name>Sans</name>
       <size>10</size>
       <weight>Normal</weight>
       <slant>Normal</slant>
@@ -480,7 +480,7 @@
         <command>exo-open --launch TerminalEmulator</command>
       </action>
     </keybind>
-	<keybind key="W-F2">
+    <keybind key="Super_L">
       <action name="Execute">
         <command>rofi -combi-modi window,drun,ssh -theme solarized -font "hack 10" -show combi</command>
       </action>
@@ -498,9 +498,9 @@
       </action>
     </keybind>
     <keybind key="A-S-space">
-    <action name="ShowMenu">
-		<menu>root-menu</menu>
-    </action>
+      <action name="ShowMenu">
+        <menu>root-menu</menu>
+      </action>
     </keybind>
     <keybind key="C-A-Delete">
       <action name="Execute">
