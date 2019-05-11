@@ -1,3 +1,6 @@
+
+![Result](https://i.imgur.com/4GfxLLE.jpg)
+
 # Repo
 This repo contains a few of my dots, the rest of this readme is more like a remider of the things the i usually need to setup my Arch OS.
 
