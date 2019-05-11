@@ -19,7 +19,7 @@ passwd rodrigo
 #setup the users with visudo 
 
 ## Setup basic (nvidia)
-sudo pacman -S nvidia nvidia-utils nvidia-settings lib32-nvidia-utils git xorg xorg-xinit sddm openbox xterm termite firefox tint2 nitrogen geany pcmanfm lxappearance
+sudo pacman -S nvidia nvidia-utils nvidia-settings lib32-nvidia-utils git xorg xorg-xinit sddm openbox xterm termite firefox tint2 nitrogen geany pcmanfm lxappearance dunst scrot gimp 
 
 
 ## Once multilib is enabled
