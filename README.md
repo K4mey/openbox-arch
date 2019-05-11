@@ -1,5 +1,5 @@
 # Repo
-This repo contains a few of my dots, the rest of this readme is more like a remider of the things the i usually need to setup my arc.
+This repo contains a few of my dots, the rest of this readme is more like a remider of the things the i usually need to setup my Arch OS.
 
 ## .bin
 Scripts, right now just a screenshot script the runs scrot and send a notification using one of the /Imagens file.
