@@ -1,4 +1,15 @@
+# Repo
+This repo contains a few of my dots, the rest of this readme is more like a remider of the things the i usually need to setup my arc.
+
+## .bin
+Scripts, right now just a screenshot script the runs scrot and send a notification using one of the /Imagens file.
+
+## .config
+dots, dunst, tint2,termite openbox folder and obmenu-generator is optional if you don't plan to use openbox.
+
+
 # Arch Install steps (2019)
+
 
 ## Add user
 useradd -m -g users -G wheel,storage,power,uucp -s /bin/bash rodrigo 
