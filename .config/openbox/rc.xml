@@ -43,19 +43,19 @@
     </font>
     <font place="MenuItem">
       <name>Sans</name>
-      <size>10</size>
+      <size>11</size>
       <weight>Normal</weight>
       <slant>Normal</slant>
     </font>
     <font place="ActiveOnScreenDisplay">
       <name>Sans</name>
-      <size>10</size>
+      <size>11</size>
       <weight>Normal</weight>
       <slant>Normal</slant>
     </font>
     <font place="InactiveOnScreenDisplay">
       <name>Sans</name>
-      <size>10</size>
+      <size>11</size>
       <weight>Normal</weight>
       <slant>Normal</slant>
     </font>
@@ -432,7 +432,12 @@
     </keybind>
     <keybind key="A-Print">
       <action name="Execute">
-        <command>~/customss.sh</command>
+        <command>~/.bin/customss.sh</command>
+      </action>
+    </keybind>
+    <keybind key="S-Print">
+      <action name="Execute">
+        <command>~/.bin/customss-5s.sh</command>
       </action>
     </keybind>
     <keybind key="W-f">

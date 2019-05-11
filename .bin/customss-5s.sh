@@ -4,12 +4,12 @@
 
 take_ss() {
 	
-	cd ~/Pictures/ && scrot 'ScreenShot_%Y_%m_%d_%k-%M-%S-$wx$h.png'  "$1"
+	sleep 5s && cd ~/Pictures/ && scrot 'ScreenShot_%Y_%m_%d_%k-%M-%S-$wx$h.png'  "$1"
 
 }
 
 notify_send() {
-	notify-send --expire-time=2000 -i view-fullscreen 'Cheese!~' 'Saved to ~/Pictures/ !' --icon='/home/rodrigo/Imagens/others/rsz_1gabriel.png' && sleep 0.5
+	sleep 5s && notify-send --expire-time=2000 -i view-fullscreen 'Cheese!~' 'Saved to ~/Pictures/ !' --icon='/home/rodrigo/Imagens/others/rsz_1gabriel.png' && sleep 0.5
 }
 
 main() {
