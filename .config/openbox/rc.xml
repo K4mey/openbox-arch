@@ -430,11 +430,6 @@
         <command>~/.bin/customss.sh</command>
       </action>
     </keybind>
-    <keybind key="A-Print">
-      <action name="Execute">
-        <command>~/.bin/customss.sh</command>
-      </action>
-    </keybind>
     <keybind key="S-Print">
       <action name="Execute">
         <command>~/.bin/customss-5s.sh</command>
