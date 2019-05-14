@@ -15,6 +15,7 @@
 # If you want to use XFCE config tools...
 #
 #xfce-mcs-manager &
+setxkbmap -model pc104 -layout us_intl &
 tint2 &
 nitrogen --restore &
 pulseaudio &
