@@ -9,7 +9,8 @@ Scripts, right now just a screenshot script the runs scrot and send a notificati
 
 ## .config
 dots, dunst, tint2,termite openbox folder and obmenu-generator is optional if you don't plan to use openbox.
-
+## Audio
+sudo pacman -S alsamixer alsa-utils pavucontrol
 
 # Arch Install steps (2019)
 
@@ -41,3 +42,7 @@ sudo pacman -S steam
 
 ## after yay setup discord, spotify, prismatik (backlight), openbox menu generator, themes, sddm themes, etc
 yay -S prismatik nvida-beta discord spotify obmenu-generator numix-icon-theme-pack-git sddm-config-editor-git enlightenment-arc-theme grub2-theme-archlinux grub2-theme-archxion arc-gotham-gtk-theme-git arc-gtk-theme-git arc-icon-theme-git
+
+## Use more cores to compile packages
+edit /etc/makepkg.conf
+MAKEFLAGS="-j8"
