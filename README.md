@@ -41,7 +41,7 @@ sudo pacman -S steam
 - makepkg -si
 
 ## after yay setup discord, spotify, prismatik (backlight), openbox menu generator, themes, sddm themes, etc
-yay -S prismatik nvida-beta discord spotify obmenu-generator numix-icon-theme-pack-git sddm-config-editor-git enlightenment-arc-theme grub2-theme-archlinux grub2-theme-archxion arc-gotham-gtk-theme-git arc-gtk-theme-git arc-icon-theme-git
+yay -S prismatik nvida-vulkan discord spotify obmenu-generator numix-icon-theme-pack-git sddm-config-editor-git enlightenment-arc-theme grub2-theme-archlinux grub2-theme-archxion arc-gotham-gtk-theme-git arc-gtk-theme-git arc-icon-theme-git
 
 ## Use more cores to compile packages
 edit /etc/makepkg.conf
