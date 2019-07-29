@@ -19,13 +19,13 @@
     <primaryMonitor>Mouse</primaryMonitor>
   </placement>
   <theme>
-    <name>Numix-Archblue</name>
+    <name>Adwaita Custom Dark Reg Retouch</name>
     <titleLayout>NLIMC</titleLayout>
     <keepBorder>yes</keepBorder>
     <animateIconify>yes</animateIconify>
     <font place="ActiveWindow">
       <name>Sans</name>
-      <size>11</size>
+      <size>10</size>
       <weight>Normal</weight>
       <slant>Normal</slant>
     </font>
@@ -480,7 +480,7 @@
         <command>exo-open --launch TerminalEmulator</command>
       </action>
     </keybind>
-    <keybind key="Super_L">
+    <keybind key="A-F2">
       <action name="Execute">
         <command>rofi -combi-modi window,drun,ssh -theme solarized -font "hack 10" -show combi</command>
       </action>
@@ -526,12 +526,7 @@
         <command>jgmenu_run</command>
       </action>
     </keybind>
-    <keybind key="A-F2">
-      <action name="Execute">
-        <command>rofr.sh -r</command>
-      </action>
-    </keybind>
-    <keybind key="A-F4">
+      <keybind key="A-F4">
       <action name="Close"/>
     </keybind>
     <keybind key="A-F5">
