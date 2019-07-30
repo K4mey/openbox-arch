@@ -435,11 +435,6 @@
         <command>~/.bin/customss-5s.sh</command>
       </action>
     </keybind>
-    <keybind key="W-f">
-      <action name="Execute">
-        <command>exo-open --launch FileManager</command>
-      </action>
-    </keybind>
     <keybind key="W-t">
       <action name="Execute">
         <command>exo-open --launch TerminalEmulator</command>
@@ -480,7 +475,7 @@
         <command>exo-open --launch TerminalEmulator</command>
       </action>
     </keybind>
-    <keybind key="A-F2">
+    <keybind key="W-F">
       <action name="Execute">
         <command>rofi -combi-modi window,drun,ssh -theme solarized -font "hack 10" -show combi</command>
       </action>
