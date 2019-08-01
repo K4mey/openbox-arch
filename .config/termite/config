@@ -6,6 +6,7 @@
 # License:    MIT
 [options]
 icon_name = Terminal
+font = Iosevka Custom 10
 
 [colors]
 cursor = #d8dee9
