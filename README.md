@@ -28,7 +28,7 @@ sudo pacman -S nvidia nvidia-utils nvidia-settings lib32-nvidia-utils git xorg x
 
 
 ## Applets
-sudo pacman -S volumeicon bluez bluez-utils network-manager-applet
+sudo pacman -S volumeicon playerctrl bluez bluez-utils network-manager-applet
 
 sudo systemctl enable bluetooth.service
 
