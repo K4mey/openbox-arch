@@ -19,7 +19,7 @@
     <primaryMonitor>Mouse</primaryMonitor>
   </placement>
   <theme>
-    <name>Adwaita Custom Dark Reg Retouch</name>
+    <name>Arc-Dark</name>
     <titleLayout>NLIMC</titleLayout>
     <keepBorder>yes</keepBorder>
     <animateIconify>yes</animateIconify>
@@ -521,7 +521,7 @@
         <command>jgmenu_run</command>
       </action>
     </keybind>
-      <keybind key="A-F4">
+    <keybind key="A-F4">
       <action name="Close"/>
     </keybind>
     <keybind key="A-F5">
