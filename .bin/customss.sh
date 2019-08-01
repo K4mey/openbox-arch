@@ -9,7 +9,7 @@ take_ss() {
 }
 
 notify_send() {
-	notify-send --expire-time=2000 -i view-fullscreen 'Cheese!~' 'Saved to ~/Pictures/ !' --icon='/home/rodrigo/Imagens/others/rsz_1gabriel.png' && sleep 0.5
+	notify-send --expire-time=2000 -i view-fullscreen 'Cheese!~' 'Saved to ~/Pictures/ !' --icon='/home/rodrigo/Pictures/others/rsz_1gabriel.png' && sleep 0.5
 }
 
 main() {
