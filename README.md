@@ -25,23 +25,16 @@ passwd rodrigo
 ## Setup basic (nvidia)
 sudo pacman -S nvidia nvidia-utils nvidia-settings lib32-nvidia-utils git xorg xorg-xinit sddm openbox xterm termite firefox tint2 nitrogen geany pcmanfm lxappearance dunst scrot gimp 
 
-## Make icons work on obmenugenerator
-sudo pacman -S gtk2-perl 
 
-## Once multilib is enabled
-sudo pacman -Sy wine-staging giflib lib32-giflib libpng lib32-libpng libldap lib32-libldap gnutls lib32-gnutls mpg123 lib32-mpg123 openal lib32-openal v4l-utils lib32-v4l-utils libpulse lib32-libpulse libgpg-error lib32-libgpg-error alsa-plugins lib32-alsa-plugins alsa-lib lib32-alsa-lib libjpeg-turbo lib32-libjpeg-turbo sqlite lib32-sqlite libxcomposite lib32-libxcomposite libxinerama lib32-libxinerama ncurses lib32-ncurses opencl-icd-loader lib32-opencl-icd-loader libxslt lib32-libxslt libva lib32-libva gtk3 lib32-gtk3 gst-plugins-base-libs lib32-gst-plugins-base-libs vulkan-icd-loader lib32-vulkan-icd-loader cups samba
-sudo pacman -S steam
 
 ## Applets
 sudo pacman -S volumeicon bluez bluez-utils network-manager-applet
 
 sudo systemctl enable bluetooth.service
 
+## install fonts for termite
+sudo cp ~/.fonts/* /usr/share/fonts/
 
-## if steam has font issues
-- cd ~/.fonts/ (create the folder if it doesn't exists - "mkdir .fonts")
-- wget https://support.steampowered.com/downloads/1974-YFKL-4947/SteamFonts.zip
-- unzip SteamFonts.zip && rm SteamFonts.zip  
 
 ## install yay 
 - git clone https://aur.archlinux.org/yay.git
@@ -49,8 +42,18 @@ sudo systemctl enable bluetooth.service
 - makepkg -si
 
 ## after yay setup discord, spotify, prismatik (backlight), openbox menu generator, themes, sddm themes, etc
-yay -S prismatik nvida-vulkan discord spotify obmenu-generator numix-icon-theme-pack-git sddm-config-editor-git enlightenment-arc-theme grub2-theme-archlinux grub2-theme-archxion arc-gotham-gtk-theme-git arc-gtk-theme-git arc-icon-theme-git
+yay -S prismatik discord spotify obmenu-generator numix-icon-theme-pack-git sddm-config-editor-git enlightenment-arc-theme grub2-theme-archlinux grub2-theme-archxion arc-gotham-gtk-theme-git arc-gtk-theme-git arc-icon-theme-git
 
-## Use more cores to compile packages
+## Make icons work on obmenugenerator
+sudo pacman -S gtk2-perl 
+
+## Use All cores to compile packages
 edit /etc/makepkg.conf
 MAKEFLAGS="-j16"
+
+# Steam issue with fonts
+
+## if steam has font issues
+- cd ~/.fonts/ (create the folder if it doesn't exists - "mkdir .fonts")
+- wget https://support.steampowered.com/downloads/1974-YFKL-4947/SteamFonts.zip
+- unzip SteamFonts.zip && rm SteamFonts.zip  
