@@ -1,5 +1,5 @@
 
-![Result](https://i.imgur.com/4GfxLLE.jpg)
+![Result](https://i.imgur.com/dSm5qBe.png)
 ![Result](https://i.imgur.com/1T2ZBq6.png)
 
 # Repo
