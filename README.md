@@ -6,7 +6,7 @@
 This repo contains a few of my dots, the rest of this readme is more like a remider of the things the i usually need to setup my Arch OS.
 
 ## .bin
-Scripts, right now just a screenshot script the runs scrot and send a notification using one of the /Imagens file.
+Scripts, right now just a screenshot script the runs scrot and send a notification using one of the ~/Pictures/others/ file, xsetwacom.sh sets my Stylus area to the main screen .
 
 ## .config
 dots, dunst, tint2,termite openbox folder and obmenu-generator is optional if you don't plan to use openbox.
@@ -54,15 +54,14 @@ MAKEFLAGS="-j16"
 
 # Steam issue with fonts
 
-## if steam has font issues
 - cd ~/.fonts/ (create the folder if it doesn't exists - "mkdir .fonts")
 - wget https://support.steampowered.com/downloads/1974-YFKL-4947/SteamFonts.zip
 - unzip SteamFonts.zip && rm SteamFonts.zip  
 
-## fix discord voice
+# fix discord voice
 
 sudo nano /etc/modprobe.d/sound.conf
 
-# change load-module module-udev-detect to:
+## change load-module module-udev-detect to:
 
 load-module module-udev-detect tsched=0
