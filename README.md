@@ -57,3 +57,11 @@ MAKEFLAGS="-j16"
 - cd ~/.fonts/ (create the folder if it doesn't exists - "mkdir .fonts")
 - wget https://support.steampowered.com/downloads/1974-YFKL-4947/SteamFonts.zip
 - unzip SteamFonts.zip && rm SteamFonts.zip  
+
+## fix discord voice
+
+sudo nano /etc/modprobe.d/sound.conf
+
+# change load-module module-udev-detect to:
+
+load-module module-udev-detect tsched=0
