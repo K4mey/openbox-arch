@@ -58,7 +58,7 @@ MAKEFLAGS="-j16"
 - wget https://support.steampowered.com/downloads/1974-YFKL-4947/SteamFonts.zip
 - unzip SteamFonts.zip && rm SteamFonts.zip  
 
-# fix discord voice
+# Fix discord voice
 
 sudo nano /etc/modprobe.d/sound.conf
 
