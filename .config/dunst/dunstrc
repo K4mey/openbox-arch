@@ -36,18 +36,18 @@
 [shortcuts]
 
 [urgency_low]
-    background = "#3d3366"
+    background = "#222f3e"
     foreground = "#c0c5ce"
     timeout = 3
 
 [urgency_normal]
-    background = "#3d3366"
+    background = "#222f3e"
     foreground = "#c0c5ce"
-    frame_color = "3d3366"
+    frame_color = "#576574"
     timeout = 3
 
 [urgency_critical]
-    background = "#3d3366"
+    background = "#222f3e"
     foreground = "#bf616a"
-    frame_color = "#bf616a"
+    frame_color = "#576574"
     timeout = 5
