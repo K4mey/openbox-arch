@@ -8,7 +8,7 @@ do
 		echo ${var}
 		echo "lower signal"
 		notify-send "Link Quality" "Low link quality, attempting to reconnect..."
-		#bluetoothctl disconnect 50:E6:66:9C:BD:A5
+		bluetoothctl disconnect 50:E6:66:9C:BD:A5
         echo "device has been reconnected"
         sleep 60s
 	else
