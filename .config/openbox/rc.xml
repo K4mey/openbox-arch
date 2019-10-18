@@ -19,7 +19,7 @@
     <primaryMonitor>Mouse</primaryMonitor>
   </placement>
   <theme>
-    <name>Arc-Dark</name>
+    <name>Matcha-dark-azul</name>
     <titleLayout>NLIMC</titleLayout>
     <keepBorder>yes</keepBorder>
     <animateIconify>yes</animateIconify>
@@ -477,7 +477,7 @@
     </keybind>
     <keybind key="W-F">
       <action name="Execute">
-        <command>rofi -combi-modi window,drun,ssh -theme solarized -font "hack 10" -show combi</command>
+        <command>rofi -combi-modi window,drun,ssh -theme simple -font "hack 13" -show combi -show-icons -icon-theme Numix-Circle</command>
       </action>
     </keybind>
     <!-- bound to synapse
