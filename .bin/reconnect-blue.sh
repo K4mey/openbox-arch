@@ -12,7 +12,8 @@ do
         echo "device has been reconnected"
         sleep 60s
 	else
-	 echo "good signal" ${var}
+	date	 
+	echo " good signal" ${var}
 	 sleep 60s
 	fi
 done

@@ -25,6 +25,6 @@ volumeicon &
 compton -cCGfF -o 0.38 -O 200 -I 200 -t 0 -l 0 -r 3 -D2 -m 0.88 &
 nm-applet &
 ~/.bin/.xsetwacom.sh &
-~/.bin/keyboard.sh & 
 bluetooth-autoconnect &
-~/.bin/bluetoothconnect.sh &
+~/.bin/reconnect-blue.sh
+~/.bin/keyboard.sh &

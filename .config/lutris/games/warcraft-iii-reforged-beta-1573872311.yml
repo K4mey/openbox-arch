@@ -1,0 +1,23 @@
+game:
+  arch: win64
+  exe: /home/rodrigo/Games-Wine/warcraft-iii-reforged/drive_c/ProgramData/Battle.net/Setup/battle.net/Battle.net
+    Setup.exe
+  prefix: /home/rodrigo/Games-Wine/warcraft-iii-reforged
+system:
+  env:
+    DXVK_CONFIG_FILE: /home/rodrigo/Games-Wine/warcraft-iii-reforged/dxvk.conf
+    DXVK_STATE_CACHE_PATH: /home/rodrigo/Games-Wine/warcraft-iii-reforged
+    STAGING_SHARED_MEMORY: '1'
+    __GL_SHADER_DISK_CACHE: '1'
+    __GL_SHADER_DISK_CACHE_PATH: /home/rodrigo/Games-Wine/warcraft-iii-reforged
+  exclude_processes: Agent.exe "Battle.net Helper.exe"
+wine:
+  dxvk: true
+  esync: true
+  overrides:
+    api-ms-win-crt-private-l1-1-0: n,b
+    d3d12: disabled
+    nvapi: disabled
+    nvapi64: disabled
+    ucrtbase: n,b
+  version: lutris-4.15-x86_64

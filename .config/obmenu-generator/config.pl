@@ -70,5 +70,6 @@ our $CONFIG = {
   "locale_support"      => 1,
   "missing_icon"        => "gtk-missing-image",
   "terminal"            => "termite",
-  "VERSION"             => 0.85,
+  "use_gtk3"            => 0,
+  "VERSION"             => 0.86,
 }

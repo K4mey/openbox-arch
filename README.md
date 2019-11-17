@@ -24,7 +24,7 @@ passwd rodrigo
 #setup the users with visudo 
 
 ## Setup basic (nvidia)
-sudo pacman -S nvidia nvidia-utils nvidia-settings lib32-nvidia-utils git xorg xorg-xinit sddm openbox xterm termite firefox tint2 nitrogen geany pcmanfm lxappearance dunst scrot gimp 
+sudo pacman -S nvidia nvidia-utils nvidia-settings git xorg xorg-xinit sddm openbox xterm termite firefox tint2 nitrogen geany pcmanfm lxappearance dunst scrot gimp 
 
 
 
@@ -62,6 +62,6 @@ MAKEFLAGS="-j16"
 
 sudo nano /etc/modprobe.d/sound.conf
 
-## change load-module module-udev-detect to:
+# Change load-module module-udev-detect to:
 
 load-module module-udev-detect tsched=0
