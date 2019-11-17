@@ -106,8 +106,8 @@ our $SCHEMA = [
 
     ## This option uses the default Openbox's action "Exit"
     {exit => ['Exit', 'exit']},
-	{exit => ['Poweroff', 'poweroff']},
-	{exit => ['Reboot', 'reboot']},
     ## This uses the 'oblogout' menu
     # {item => ['oblogout', 'Exit', 'exit']},
+    {item => ['poweroff', 'poweroff']},
+    {item => ['reboot','reboot']},
 ]
