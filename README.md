@@ -43,7 +43,7 @@ sudo cp ~/.fonts/* /usr/share/fonts/
 - makepkg -si
 
 ## after yay setup discord, spotify, prismatik (backlight), openbox menu generator, themes, sddm themes, etc
-yay -S prismatik discord spotify obmenu-generator numix-icon-theme-pack-git sddm-config-editor-git enlightenment-arc-theme grub2-theme-archlinux grub2-theme-archxion arc-gotham-gtk-theme-git arc-gtk-theme-git arc-icon-theme-git
+yay -S prismatik discord spotify obmenu-generator numix-icon-theme-pack-git sddm-config-editor-git enlightenment-arc-theme grub2-theme-archlinux grub2-theme-archxion arc-gotham-gtk-theme-git arc-gtk-theme-git arc-icon-theme-git xf86-input-wacom
 
 ## Make icons work on obmenugenerator
 sudo pacman -S gtk2-perl 
