@@ -1,0 +1,98 @@
+<!DOCTYPE>
+<html>
+  <head>
+    <title>Volume Controller</title>
+    <link type="text/css" rel="stylesheet" href="options.css"/>
+    <script type="text/javascript" src='options.js'></script>
+  </head>
+  <body>
+    <div class='header'>Volume Controller</div>
+    <hr style="width: 270px;">
+    <table class='settingsTable'>
+      <tbody>
+        <tr title='Youtube saves the volume you recently set. Select this option
+          to make extenstion to take control of volume over it else youtube.com videos
+          volume will be managed by the website.'>
+          <td>Enable extension in youtube.com</td>
+          <td><input id='handleYoutube_checkbox' type='checkbox'/></td>
+        </tr>
+        <tr>
+          <td>Show audio tabs list by default</td>
+          <td><input id='show_audio_tabs_default' type='checkbox'/></td>
+        </tr>
+        <tr>
+          <td>Volume step size (via keyboard controls)</td>
+          <td>
+            <select id='volume_stepper'>
+              <option value="LINEAR_1">LINEAR by 1</option>
+              <option value="LINEAR_2">LINEAR by 2</option>
+              <option value="EXPONENTIAL">EXPONENTIAL</option>
+            </select>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+    <div style="height:34px;">
+      <button id='save_button'>Save</button>
+      <span id='action_status'></span>
+    </div>
+    <hr/>
+
+    <b>What's new?</b>
+    <ul>
+      <li><span class='version'><span class="current_version">v0.4</span> - Configure volume step size</span>
+      </li>
+      <li><span class='version'>v0.3 - Keyboard shortcuts</span>
+        <ul>
+          <li>Create keyboard shortcut to open extensions popup<br/>
+            chrome://extensions/ -> scroll to bottom -> select volume
+            controller extension <br/>
+             then press the shortcut key you want to keep,
+            preferrebly <code>alt + dot</code> or <code>alt + &#x2192;</code><br/>
+            Do not use global shortcuts like <code>ctrl + c</code> or <code>ctrl + p</code><br/>
+            Now you can control volume without need for mouse/touchpad
+          </li>
+          <li><code>alt + &#x2192;</code> then press <code>m</code> to toggle mute,
+             <code>&#x2191;</code> to increase and <code>&#x2193;</code> to decrease volume </li>
+        </ul>
+      </li>
+    </ul>
+
+    <hr/>
+    <b>Note:</b>
+
+    <ul>
+      <li><b>Flash videos</b> volume cannot be controlled using this extension,
+        only HTML5 videos and audios.</li>
+      <li>Few sites load the video from different origin, for example
+        <a href='http://www.voot.com/'>voot.com</a>. Those videos cannot be
+        accessed/controlled because of
+        <a href='https://en.wikipedia.org/wiki/Same-origin_policy'>
+          <b>Same-origin policy</b></a>. </li>
+      <li>You can always <b>override the volume</b> of any video by the controls
+        given from the website. But that volume is not reflected in the extension,
+        as extenstion saves the global value.</li>
+      <li><b>Incognito mode</b>: Websites will not load user saved settings in
+        this mode, even the volume which you last set. So allow this extension
+        to run in incognito mode to manage volume.
+      </li>
+      <ul>
+        <li><b>Steps</b>: Right click on extenstion
+          <img src='icons/icon16.png'/> <div class='next'>>></div> manage extensions
+          <div class='next'>>></div> tick mark the checkbox which says "Allow in incognito".</li>
+      </ul>
+    </ul>
+
+    <b>Credits:</b>
+
+    <ul>
+      <li> by <a href="http://rajugt.github.io/">rajuGT</a></li>
+      <li><div>Icons made by <a href="http://www.freepik.com" title="Freepik">Freepik</a>
+        from <a href="http://www.flaticon.com" title="Flaticon">www.flaticon.com</a>
+        is licensed by <a href="http://creativecommons.org/licenses/by/3.0/"
+        title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></div></li>
+      <li>Any issues or suggestions? write to us at <u>housestark.dev@gmail.com</u></li>
+    </ul>
+
+  </body>
+</html>

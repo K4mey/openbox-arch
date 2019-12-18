@@ -1,0 +1,3 @@
+{
+	"persist:redux-persist": "{\"preferences\":\"{\\\"hideOnScreenButtons\\\":false,\\\"hideDisconnectedClients\\\":true,\\\"hideDisconnectedModules\\\":true,\\\"hideDisconnectedSources\\\":false,\\\"hideDisconnectedSinks\\\":false,\\\"hideMonitorSourceEdges\\\":false,\\\"hideMonitors\\\":false,\\\"hidePulseaudioApps\\\":true,\\\"hideVolumeThumbnails\\\":false,\\\"lockChannelsTogether\\\":true,\\\"maxVolume\\\":1.5,\\\"volumeStep\\\":0.05,\\\"hideLiveVolumePeaks\\\":false,\\\"doNotAskForConfirmations\\\":false,\\\"showDebugInfo\\\":false,\\\"remoteServerAddresses\\\":{}}\",\"_persist\":\"{\\\"version\\\":-1,\\\"rehydrated\\\":true}\"}"
+}

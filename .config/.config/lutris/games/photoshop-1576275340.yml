@@ -1,0 +1,13 @@
+game:
+  arch: win64
+  exe: /mnt/Akali/Softwares/Photoshop/drive_c/Program Files/Adobe/Adobe Photoshop
+    CC 2019/Photoshop.exe
+  prefix: /mnt/Akali/Softwares/Photoshop
+  working_dir: /mnt/Akali/Softwares/Photoshop
+system:
+  prime: true
+wine:
+  d9vk: true
+  dxvk: true
+  esync: true
+  version: lutris-4.20-x86_64

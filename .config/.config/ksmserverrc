@@ -1,0 +1,23 @@
+[LegacySession: saved at previous logout]
+count=0
+
+[Session: saved at previous logout]
+clientId1=10e5616265000157652470900000163430000
+clientId2=10e5616265000157652470900000163430006
+clientId3=10e5616265000157652471300000163430008
+count=3
+program1=/usr/bin/openbox
+program2=/usr/lib/DiscoverNotifier
+program3=pulseaudio
+restartCommand1=/usr/bin/openbox,--sm-client-id,10e5616265000157652470900000163430000,--sm-save-file,/home/rodrigo/.cache/openbox/sessions/1576524709-16356-2798333792.obs
+restartCommand2=/usr/lib/DiscoverNotifier,-session,10e5616265000157652470900000163430006_1576524835_764107
+restartCommand3=
+restartStyleHint1=2
+restartStyleHint2=0
+restartStyleHint3=0
+userId1=rodrigo
+userId2=rodrigo
+userId3=rodrigo
+wasWm1=true
+wasWm2=false
+wasWm3=false

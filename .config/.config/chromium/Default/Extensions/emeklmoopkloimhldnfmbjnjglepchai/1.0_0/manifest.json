@@ -1,0 +1,27 @@
+{
+   "background": {
+      "page": "background.html"
+   },
+   "content_scripts": [ {
+      "all_frames": true,
+      "css": [ "content.css" ],
+      "js": [ "jquery.min.js", "content.js" ],
+      "matches": [ "*://4chan.org/*", "*://*.4chan.org/*" ],
+      "run_at": "document_start"
+   } ],
+   "content_security_policy": "script-src 'self' 'unsafe-eval' https://apis.google.com  https://ssl.google-analytics.com https://connect.facebook.net; object-src 'self'",
+   "description": "The best way to browse 4chan.",
+   "icons": {
+      "128": "icon128.png",
+      "16": "icon16.png",
+      "48": "icon48.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAkUiCqvdVooooIsyo1TJVSLOA80ShYNd4APev0MABj5tp4dc8MFLzKs6LPVL5Dk9BjhBBqS0H2cm5vLS+okc2mON44AaxXK6FBN0AaCl9eLcOu10HA5PjlFzpVho3eUohKupjF0eou3diILm8oLG9bEt9EKT9jAA/4RTxcX8nw5mafrdS4ROJYWiNanpBleJfk26KWZfCW8dB6WI0i+10V42W5l9Zp/DqNwCtyNWq6kIgWNOYEaXQqECc6fCfbcEXw8/Q9h/+T3M3FBiX8P8wgXqGa5RX0XDyIE7kjdi+ebh1bhYu8mbjAH0heQwyGITQBIxfErhTED9cM307HP5WLwIDAQAB",
+   "manifest_version": 2,
+   "name": "4chan Plus",
+   "options_page": "options.html",
+   "permissions": [ "*://*/*" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "1.0",
+   "web_accessible_resources": [ "icon48.png", "img/loader.gif", "img/404.png", "img/report.png", "img/x.png", "img/quickrep.png", "img/min.png", "img/expand.png", "img/refresh.png", "img/bookmarks.png", "img/star.png", "img/play.png", "img/awwyeah.png", "img/close.png" ]
+}

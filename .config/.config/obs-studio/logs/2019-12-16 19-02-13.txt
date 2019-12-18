@@ -1,0 +1,94 @@
+07:02:13 PM.904: CPU Name: AMD Ryzen 7 3700X 8-Core Processor
+07:02:13 PM.904: CPU Speed: 2157.369MHz
+07:02:13 PM.905: Physical Cores: 8, Logical Cores: 16
+07:02:13 PM.905: Physical Memory: 15935MB Total, 7578MB Free
+07:02:13 PM.905: Kernel Version: Linux 5.4.2-arch1-1
+07:02:13 PM.905: Distribution: "Arch Linux" Unknown
+07:02:13 PM.905: Window System: X11.0, Vendor: The X.Org Foundation, Version: 1.20.6
+07:02:13 PM.906: Portable mode: false
+07:02:13 PM.961: OBS 24.0.4-1 (linux)
+07:02:13 PM.961: ---------------------------------
+07:02:13 PM.976: ---------------------------------
+07:02:13 PM.976: audio settings reset:
+07:02:13 PM.976: 	samples per sec: 48000
+07:02:13 PM.976: 	speakers:        2
+07:02:13 PM.979: ---------------------------------
+07:02:13 PM.979: Initializing OpenGL...
+07:02:14 PM.020: Loading up OpenGL on adapter NVIDIA Corporation GeForce GTX 1070/PCIe/SSE2
+07:02:14 PM.020: OpenGL loaded successfully, version 3.2.0 NVIDIA 440.36, shading language 1.50 NVIDIA via Cg compiler
+07:02:14 PM.026: ---------------------------------
+07:02:14 PM.026: video settings reset:
+07:02:14 PM.026: 	base resolution:   1920x1080
+07:02:14 PM.026: 	output resolution: 1280x720
+07:02:14 PM.026: 	downscale filter:  Bicubic
+07:02:14 PM.026: 	fps:               60/1
+07:02:14 PM.026: 	format:            NV12
+07:02:14 PM.026: 	YUV mode:          601/Partial
+07:02:14 PM.026: NV12 texture support not available
+07:02:14 PM.026: Audio monitoring device:
+07:02:14 PM.026: 	name: Default
+07:02:14 PM.026: 	id: default
+07:02:14 PM.026: ---------------------------------
+07:02:14 PM.028: Failed to load 'en-US' text for module: 'decklink-ouput-ui.so'
+07:02:14 PM.084: No blackmagic support
+07:02:14 PM.089: NVENC supported
+07:02:14 PM.089: FFMPEG VAAPI supported
+07:02:14 PM.095: VLC found, VLC video source enabled
+07:02:14 PM.095: ---------------------------------
+07:02:14 PM.095:   Loaded Modules:
+07:02:14 PM.095:     vlc-video.so
+07:02:14 PM.095:     text-freetype2.so
+07:02:14 PM.095:     sc2switcher.so
+07:02:14 PM.095:     rtmp-services.so
+07:02:14 PM.095:     obs-x264.so
+07:02:14 PM.095:     obs-transitions.so
+07:02:14 PM.095:     obs-outputs.so
+07:02:14 PM.095:     obs-libfdk.so
+07:02:14 PM.095:     obs-filters.so
+07:02:14 PM.095:     obs-ffmpeg.so
+07:02:14 PM.095:     nvfbc.so
+07:02:14 PM.095:     linux-v4l2.so
+07:02:14 PM.095:     linux-pulseaudio.so
+07:02:14 PM.095:     linux-jack.so
+07:02:14 PM.095:     linux-decklink.so
+07:02:14 PM.095:     linux-capture.so
+07:02:14 PM.095:     linux-alsa.so
+07:02:14 PM.095:     libobs-linuxbrowser.so
+07:02:14 PM.095:     image-source.so
+07:02:14 PM.095:     frontend-tools.so
+07:02:14 PM.095:     decklink-ouput-ui.so
+07:02:14 PM.095: ---------------------------------
+07:02:14 PM.095: ==== Startup complete ===============================================
+07:02:14 PM.097: All scene data cleared
+07:02:14 PM.097: ------------------------------------------------
+07:02:14 PM.098: pulse-input: Server name: 'pulseaudio 13.0-dirty'
+07:02:14 PM.099: pulse-input: Audio format: s16le, 44100 Hz, 2 channels
+07:02:14 PM.099: pulse-input: Started recording from 'alsa_output.pci-0000_0f_00.4.analog-stereo.monitor'
+07:02:14 PM.099: pulse-input: Server name: 'pulseaudio 13.0-dirty'
+07:02:14 PM.099: pulse-input: Audio format: s16le, 48000 Hz, 1 channels
+07:02:14 PM.099: pulse-input: Started recording from 'alsa_input.usb-Arcano_AR-XLR-USB____Arcano_AR-XLR-USB-00.multichannel-input'
+07:02:14 PM.099: v4l2-input: Start capture from /dev/video0
+07:02:14 PM.100: v4l2-input: Input: 0
+07:02:14 PM.114: v4l2-input: Resolution: 1280x720
+07:02:14 PM.114: v4l2-input: Pixelformat: 21VY
+07:02:14 PM.114: v4l2-input: Linesize: 1280 Bytes
+07:02:14 PM.114: v4l2-input: Framerate: 30.00 fps
+07:02:14 PM.204: Switched to scene 'SC2Ingame'
+07:02:14 PM.204: ------------------------------------------------
+07:02:14 PM.204: Loaded scenes:
+07:02:14 PM.204: - scene 'SC2Ingame':
+07:02:14 PM.204:     - source: 'NvFBC Source 2' (nvfbc-source)
+07:02:14 PM.204:     - source: 'Video Capture Device (V4L2)' (v4l2_input)
+07:02:14 PM.204: - scene 'SC2Out':
+07:02:14 PM.204: - scene 'lol':
+07:02:14 PM.204:     - source: 'NvFBC Source 2' (nvfbc-source)
+07:02:14 PM.204:     - source: 'Video Capture Device (V4L2)' (v4l2_input)
+07:02:14 PM.204: - scene 'lolout':
+07:02:14 PM.204:     - source: 'Image' (image_source)
+07:02:14 PM.204:     - source: 'Video Capture Device (V4L2)' (v4l2_input)
+07:02:14 PM.204:     - source: 'Text (FreeType 2)' (text_ft2_source)
+07:02:14 PM.204: ------------------------------------------------
+07:02:14 PM.657: adding 42 milliseconds of audio buffering, total audio buffering is now 42 milliseconds (source: Mic/Aux)
+07:02:14 PM.657: 
+07:02:19 PM.830: adding 21 milliseconds of audio buffering, total audio buffering is now 64 milliseconds (source: Desktop Audio)
+07:02:19 PM.830: 

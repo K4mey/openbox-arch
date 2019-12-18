@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="popup.css">
+    <link rel="import" href="polymer/paper-slider.html">
+    <script src="popup.js"></script>
+  </head>
+  <body>
+    <table>
+      <tr>
+        <td colspan="3" class="header_row">
+          <span id='settings' title='Settings' class='icon hide'></span>
+          <span id='expand' class='icon'></span>
+          <span class='logo'>Volume Controller</span>
+        </td>
+      </tr>
+      <tr class='controller_container'>
+        <td><div id='vol_icon' title='Toggle mute' class='icon unmute'></div></td>
+        <td><paper-slider id="vol_slider" min="0" max="100" value="10" pin></paper-slider></td>
+        <td id="vol_val_container">10%</td>
+      </tr>
+    </table>
+    <div class="volume_controller_divider hide"></div>
+    <div id='audible_tabs_container' class="hide"></div>
+  </body>
+</html>
+<!-- Icon colors = gray #9C9C9C red #8A162B-->

@@ -1,0 +1,6 @@
+2019/08/01-19:56:52.031 51c Reusing MANIFEST /home/rodrigo/.config/chromium/Default/Sync Data/LevelDB/MANIFEST-000001
+2019/08/01-19:56:52.031 51c Recovering log #4
+2019/08/01-19:56:52.039 51c Reusing old log /home/rodrigo/.config/chromium/Default/Sync Data/LevelDB/000004.log 
+2019/08/01-20:03:10.528 3032 Level-0 table #8: started
+2019/08/01-20:03:10.534 3032 Level-0 table #8: 191292 bytes OK
+2019/08/01-20:03:10.539 3032 Delete type=0 #4

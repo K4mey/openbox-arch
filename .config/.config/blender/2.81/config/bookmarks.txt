@@ -1,0 +1,5 @@
+[Bookmarks]
+[Recent]
+/home/rodrigo/
+/usr/bin/
+/home/rodrigo/Pictures/Textures/VendingMachine/
