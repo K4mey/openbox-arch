@@ -1,9 +1,0 @@
-{
-    "settings": {
-        "bwtest": false,
-        "key": "live_28341583_NUocvgcdj36rhDe3TkcdkdTEmzeEl5",
-        "server": "rtmp://live-rio.twitch.tv/app",
-        "service": "Twitch"
-    },
-    "type": "rtmp_common"
-}

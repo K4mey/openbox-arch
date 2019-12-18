@@ -1,6 +1,0 @@
-# GIMP gimp-color-picker-tool options
-
-(foreground (color-rgb 0.23764534891150069 0.23764534891150069 0.23764534891150069))
-(background (color-rgb 0.5714285714285714 0.095877277085330753 0.095877277085330753))
-
-# end of gimp-color-picker-tool options

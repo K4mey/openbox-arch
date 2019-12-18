@@ -1,6 +1,0 @@
-[Default Applications]
-x-scheme-handler/discord-593107035323629578=discord-593107035323629578.desktop
-image/png=feh.desktop
-
-[Added Associations]
-image/png=feh.desktop;
