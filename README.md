@@ -10,21 +10,24 @@ Scripts, right now just a screenshot script the runs scrot and send a notificati
 
 ## .config
 dots, dunst, tint2,termite openbox folder and obmenu-generator is optional if you don't plan to use openbox.
-## Audio
-sudo pacman -S alsamixer alsa-utils pavucontrol
 
-# Arch Install steps (2019)
-
+# Arch After install (2020)
 
 ## Add user
 useradd -m -g users -G wheel,storage,power,uucp -s /bin/bash rodrigo 
-## uucp group for the prismatik use, optional if you dont plan to use it
+
+> uucp group for the prismatik use, optional if you dont plan to use it
+
 passwd rodrigo
 
 #setup the users with visudo 
 
 ## Setup basic (nvidia)
-sudo pacman -S nvidia nvidia-utils nvidia-settings git xorg xorg-xinit sddm openbox xterm termite firefox tint2 nitrogen geany pcmanfm lxappearance dunst scrot gimp 
+sudo pacman -S nvidia nvidia-utils nvidia-settings git xorg xorg-xinit sddm openbox xterm kitty firefox tint2 nitrogen geany pcmanfm lxappearance dunst scrot gimp dhcpcd git alsamixer alsa-utils pavucontrol pulseaudio-alsa
+
+
+## Zen Linux
+> Right now im using the Zen Linux build for AMD Zen processors, if you plan to run with nvidia you need to setup nvidia-dmks in order to work!
 
 
 
@@ -33,8 +36,8 @@ sudo pacman -S volumeicon playerctrl bluez bluez-utils network-manager-applet
 
 sudo systemctl enable bluetooth.service
 
-## install fonts for termite
-sudo cp ~/.fonts/* /usr/share/fonts/
+## install fonts rofi and user-icon
+sudo cp -r /usr/share/* /usr/share/
 
 
 ## install yay 
