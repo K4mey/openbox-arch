@@ -36,8 +36,9 @@ sudo pacman -S volumeicon playerctrl bluez bluez-utils network-manager-applet
 
 sudo systemctl enable bluetooth.service
 
-## install fonts rofi and user-icon
-sudo cp -r /usr/share/* /usr/share/
+## Fonts removed
+
+It was easy to install them through just git and copy paste but would be better just install them via pacman or yay since they would be updated
 
 
 ## install yay 
