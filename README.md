@@ -14,20 +14,18 @@ dots, dunst, tint2,termite openbox folder and obmenu-generator is optional if yo
 # Arch After install (2020)
 
 ## Add user
-useradd -m -g users -G wheel,storage,power,uucp -s /bin/bash rodrigo 
+useradd -m -g users -G wheel,storage,power -s /bin/bash kamey 
 
-> uucp group for the prismatik use, optional if you dont plan to use it
-
-passwd rodrigo
+passwd kamey
 
 #setup the users with visudo 
 
 ## Setup basic (nvidia)
-sudo pacman -S nvidia nvidia-utils nvidia-settings git xorg xorg-xinit sddm openbox xterm kitty firefox tint2 nitrogen geany pcmanfm lxappearance dunst scrot gimp dhcpcd git alsamixer alsa-utils pavucontrol pulseaudio-alsa
+sudo pacman -S nvidia nvidia-utils nvidia-settings git xorg xorg-xinit sddm openbox xfce4-terminal xterm firefox tint2 nitrogen notepadqq pcmanfm lxappearance dunst scrot gimp dhcpcd git alsamixer alsa-utils pavucontrol pulseaudio-alsa
 
 
 ## Zen Linux
-> Right now im using the Zen Linux build for AMD Zen processors, if you plan to run with nvidia you need to setup nvidia-dmks in order to work!
+>if you plan to run with nvidia you need to setup nvidia-dmks in order to work!
 
 
 
@@ -46,8 +44,8 @@ It was easy to install them through just git and copy paste but would be better 
 - cd yay
 - makepkg -si
 
-## after yay setup discord, spotify, prismatik (backlight), openbox menu generator, themes, sddm themes, etc
-yay -S prismatik discord spotify obmenu-generator numix-icon-theme-pack-git sddm-config-editor-git enlightenment-arc-theme grub2-theme-archlinux grub2-theme-archxion arc-gotham-gtk-theme-git arc-gtk-theme-git arc-icon-theme-git xf86-input-wacom
+## after yay setup, openbox menu generator, themes, sddm themes, etc
+yay -S prismatik obmenu-generator numix-icon-theme-pack-git sddm-config-editor-git enlightenment-arc-theme arc-gotham-gtk-theme-git arc-gtk-theme-git arc-icon-theme-git xf86-input-wacom
 
 ## Make icons work on obmenugenerator
 sudo pacman -S gtk2-perl 
