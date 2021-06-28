@@ -1,6 +1,5 @@
 
-![Result](https://i.imgur.com/dSm5qBe.png)
-![Result](https://i.imgur.com/1T2ZBq6.png)
+![Result](https://i.imgur.com/rxGK3t4.png)
 
 # Repo
 This repo contains a few of my dots, the rest of this readme is more like a remider of the things the i usually need to setup my Arch OS.
