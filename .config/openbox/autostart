@@ -18,9 +18,12 @@
 dunst &
 setxkbmap -model pc104 -layout us_intl &
 blueman-applet &
-tint2 &
-nitrogen --restore &
 volumeicon &
+nm-applet &
+pa-applet &
+tint2 &
+optimus-manager-qt &
+nitrogen --restore &
 /usr/bin/prismatik &
 compton -cCGfF -o 0.38 -O 200 -I 200 -t 0 -l 0 -r 3 -D2 -m 0.88 &
 nm-applet &
