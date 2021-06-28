@@ -10,7 +10,7 @@ Scripts, right now just a screenshot script the runs scrot and send a notificati
 ## .config
 dots, dunst, tint2,termite openbox folder and obmenu-generator is optional if you don't plan to use openbox.
 
-# Arch After install (2020)
+# Arch After install (2021)
 
 ## Add user
 useradd -m -g users -G wheel,storage,power -s /bin/bash kamey 
