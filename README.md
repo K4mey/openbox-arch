@@ -20,7 +20,7 @@ passwd kamey
 #setup the users with visudo 
 
 ## Setup basic (nvidia)
-sudo pacman -S nvidia nvidia-utils nvidia-settings git xorg xorg-xinit sddm openbox xfce4-terminal xterm firefox tint2 nitrogen notepadqq pcmanfm lxappearance dunst scrot gimp dhcpcd git alsamixer alsa-utils pavucontrol pulseaudio-alsa
+sudo pacman -S nvidia nvidia-utils nvidia-settings git xorg xorg-xinit sddm openbox xfce4-terminal xterm firefox tint2 nitrogen notepadqq pcmanfm lxappearance dunst scrot gimp dhcpcd git alsamixer alsa-utils pavucontrol pulseaudio-alsa polkit
 
 
 ## Zen Linux
@@ -44,7 +44,7 @@ It was easy to install them through just git and copy paste but would be better 
 - makepkg -si
 
 ## after yay setup, openbox menu generator, themes, sddm themes, etc
-yay -S prismatik obmenu-generator numix-icon-theme-pack-git sddm-config-editor-git enlightenment-arc-theme arc-gotham-gtk-theme-git arc-gtk-theme-git arc-icon-theme-git xf86-input-wacom
+yay -S prismatik obmenu-generator numix-icon-theme-pack-git sddm-config-editor-git enlightenment-arc-theme arc-gotham-gtk-theme-git arc-gtk-theme-git arc-icon-theme-git xf86-input-wacom polkit-dumb-agent-git
 
 ## Make icons work on obmenugenerator
 sudo pacman -S gtk2-perl 
